@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- EuiccSupportPixel ships with Google's signature (it stays PRESIGNED), so it
      is mapped by certificate. Same cert as the yogi blob (checked 2026-10-11). -->
-<!-- No PixelSystemService entry (kodiak has one): Evolution's GMS signs it
+<!-- No PixelSystemService entry (kodiak has one): vendor/gms ships it signed
      with grizzly's own stock platform key, which the stock vendor
      mac_permissions maps to seinfo=platform. A second mapping here would win
      (system_ext loads before vendor) and take seinfo=platform away from every
