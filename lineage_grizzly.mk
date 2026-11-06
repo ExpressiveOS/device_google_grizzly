@@ -56,7 +56,7 @@ TARGET_SCREEN_WIDTH := 1280
 # PRODUCT_, not DEVICE_PACKAGE_OVERLAYS: generic_system.mk's
 # PRODUCT_ENFORCE_RRO_TARGETS := * makes it an RRO, and a device overlay's goes
 # on /vendor, which is stock here and never built.
-PRODUCT_PACKAGE_OVERLAYS += device/google/grizzly/overlay-evolution
+PRODUCT_PACKAGE_OVERLAYS += device/google/grizzly/overlay-expressiveos
 
 # ExpressiveOS
 WITH_GMS := true
