@@ -42,7 +42,7 @@ vendor stays stock.
 ExpressiveOS builds this tree with its build kit ([`expressiveos-cheetah/`](https://github.com/denson9874/Denson9874-Device-Central/tree/main/expressiveos-cheetah)),
 in the source tree ExpressiveOS's own manifest syncs (`~/expressiveos`, set up by the kit's
 `setup.sh`). The kit's `devices/grizzly.conf` holds what's particular to this phone: the lunch
-target `lineage_grizzly-cp2a-user`, the model, the release folders, and where its kernel, vendor and
+target `eos_grizzly-cp2a-user`, the model, the release folders, and where its kernel, vendor and
 firmware come from.
 
 ```bash

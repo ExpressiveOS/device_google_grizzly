@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_grizzly.mk
+    $(LOCAL_DIR)/eos_grizzly.mk
